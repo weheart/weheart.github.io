@@ -9,6 +9,10 @@ a {
   color: #f64e54;
 }
 
+h2 {
+  margin-top: 40px;
+}
+
 small {
   display: block;
   color: grey;
