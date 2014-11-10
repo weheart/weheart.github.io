@@ -64,4 +64,8 @@ ul ul {
     font-size: 22px;
     line-height: 28px;
   }
+  
+  ul, ol {
+    margin-left: -20px;
+  }
 }
