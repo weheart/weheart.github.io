@@ -16,13 +16,17 @@ small {
   margin-bottom: 36px;
 }
 
+ul ul {
+  margin-bottom: 8px;
+}
+
 .manifest {
-  font-weight: bold;
-  font-size: 32px;
   margin-bottom: 32px;
 }
 
 .manifest p {
+  font-weight: bold;
+  font-size: 32px;
   margin: 0;
   line-height: 38px;
   letter-spacing: -0.01em;
@@ -39,4 +43,25 @@ small {
   margin-top: 36px;
   margn-bottom: 36px;
   max-width: 100%;
+}
+
+.instructions small {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .manifest {
+    margin-bottom: -6px;
+  }
+  
+  .manifest p {
+    font-size: 22px;
+    line-height: 28px;
+    padding-bottom: 8px;
+  }
+  
+  h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
 }
