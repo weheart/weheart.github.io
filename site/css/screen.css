@@ -16,8 +16,6 @@ h2 {
 small {
   display: block;
   color: grey;
-  margin-top: 36px;
-  margin-bottom: 36px;
 }
 
 ul ul {
@@ -34,6 +32,7 @@ ul ul {
   margin: 0;
   line-height: 38px;
   letter-spacing: -0.01em;
+  margin-bottom: 12px;
 }
 
 .logo {
@@ -43,14 +42,19 @@ ul ul {
   margin: 36px 0 36px 10%;
 }
 
-.variations {
-  margin-top: 36px;
-  margn-bottom: 36px;
-  max-width: 100%;
+.variations img {
+  width: 60px;
+  height: 60px;
+  padding: 16px;
 }
 
-.instructions small {
-  margin: 0;
+.variations small {
+  margin-bottom: 10px;
+}
+
+.credits {
+  margin-top: 36px;
+  margin-bottom: 36px;  
 }
 
 @media (max-width: 600px) {
